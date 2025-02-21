@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.HKQh8ZkVmptwWRzQ6WK50QHaHa?rs=1&pid=ImgDetMain" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+
+    <div class="info">
+        <p>BMI, or Body Mass Index, is a simple calculation using a person's height and weight. The formula is BMI = kg/m² where kg is a person's weight in kilograms and m² is their height in meters squared. It is used to categorize individuals into underweight, normal weight, overweight, and obesity, helping to assess their overall health.</p>
+        <p>Here's the chart depicting the BMI values:</p>
+        <img src="https://as2.ftcdn.net/v2/jpg/04/94/06/33/1000_F_494063374_n7sx4ylP0baP2BVZPyz9VpvLp3GGAacm.jpg" alt="BMI Chart">
+    </div>
+
+    <div class="container">
+        <ul class="calculator">
+            <li>Enter Weight (kg):
+                <input type="number" id="weight" placeholder="Enter weight">
+            </li>
+            <li>Enter Height (m):
+                <input type="number" id="height" placeholder="Enter height">
+            </li>
+            <li>BMI:
+                <input type="text" id="bmi" readonly>
+            </li>
+        </ul>
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <button onclick="clearFields()">Clear</button>
+    </div>
+
+    <script>
+        function calculateBMI() {
+            let weight= parseFloat(document.getElementById('weight').value)
+            let height= parseFloat(document.getElementById('height').value)
+
+            if(weight>0 && height >0){
+                let bmi = (weight / (height * height)).toFixed(2);
+                document.getElementById('bmi').value = bmi;
+            } else {
+                alert('Please enter valid weight and height.');
+            }
+        }
+
+        function clearFields() {
+            document.getElementById('weight').value = "";
+            document.getElementById('height').value = "";
+            document.getElementById('bmi').value = "";
+        }
+    </script>
+</body>
+</html>
