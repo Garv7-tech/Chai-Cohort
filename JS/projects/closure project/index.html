@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Button & Background Color Generator</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Welcome to Dynamic Button & Background Color Generator</h1>
+    </nav>
+
+    <main>
+        <div class="dropdown">
+            <label for="colorDropDownList">Choose Color</label>
+            <select name="colorDropDownList" id="colorDropDownList">
+                <option value="">Choose Color</option>
+                <option value="Red" data-key="Red">Red</option>
+                <option value="Blue" data-key="Blue">Blue</option>
+                <option value="Green" data-key="Green">Green</option>
+                <option value="Pink" data-key="Pink">Pink</option>
+                <option value="myColor">
+                    Enter your color
+                </option>
+            </select>
+            <button id="createBTN" type="button">Create BTN</button>
+        </div>
+        <div class="display">
+
+        </div>
+    </main>
+    <script>
+        let displayDiv = document.getElementsByClassName('display')[0]
+
+        function createColorBtn(color) {
+            let colorBtn = document.createElement('button')
+            colorBtn.type = 'button'
+            colorBtn.innerHTML = color.toUpperCase()
+            displayDiv.appendChild(colorBtn)
+            colorBtn.addEventListener('click', () => {
+                // change background-color
+                document.body.style.backgroundColor = color
+            })
+
+        }
+
+        document.getElementById('createBTN').addEventListener('click', (event) => {
+            let colorList = document.getElementById('colorDropDownList');
+
+            if (colorList.value.toString() !== 'myColor') {
+                let color = colorList.value.toString().toLowerCase();
+                createColorBtn(color);
+            } else {
+                // Create input field and submit button
+                let myColorInput = document.createElement('input');
+                let myColorBtn = document.createElement('button');
+
+                myColorInput.type = 'text';
+                myColorInput.id = 'myColorInput';
+                myColorInput.placeholder = 'Enter your color';
+                myColorInput.required = true;
+
+                myColorBtn.innerText = 'Create BTN';
+                displayDiv.appendChild(myColorInput);
+                displayDiv.appendChild(myColorBtn);
+
+                // Fetching the user inputted color value
+                myColorBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();  // Prevent event bubbling up
+
+                    let myColor = myColorInput.value.toString().toLowerCase();
+                    if (myColor.trim() !== "") {
+                        createColorBtn(myColor);
+                    }
+                });
+            }
+        }, false);
+
+    </script>
+</body>
+
+</html>
+<!-- <script src="index.js"></script> -->
