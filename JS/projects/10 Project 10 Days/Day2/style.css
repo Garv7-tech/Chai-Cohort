@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input[type="number"]:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+button {
+    margin: 5px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+p {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input[type="number"], button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
