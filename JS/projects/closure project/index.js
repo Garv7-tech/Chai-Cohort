@@ -34,7 +34,7 @@ document.getElementById('createBTN').addEventListener('click', (event) => {
 
         // Fetching the user inputted color value
         myColorBtn.addEventListener('click', (e) => {
-            e.stopPropagation();  // Prevent event bubbling up
+            e.stopPropagation();  // Prevent event bubbling up 
             
             let myColor = myColorInput.value.toString().toLowerCase();
             if (myColor.trim() !== "") {
