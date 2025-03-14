@@ -29,16 +29,19 @@ function updateScreen(value) {
 
 // Event Listener for Button Clicks
 document.addEventListener('click', (event) => {
-    let button = event.target
+    let button = event.target // or you can also pass just event inside a normal function declaration
 
     if (button.id === 'darkModeToggle') {
         // toggle dark-mode on/off
         document.getElementById('darkModeToggle').addEventListener('click', (event) => {
             if (document.body.classList.contains('dark-mode')) {
                 document.body.classList.remove('dark-mode');
+                document.getElementById('darkModeToggle').innerText = "🌙"
+                document.getElementById('darkModeToggle').title = "Toggle Dark Mode ON"
             } else {
                 document.body.classList.add('dark-mode');
-            }
+                document.getElementById('darkModeToggle').textContent = "☀️"
+                document.getElementById('darkModeToggle').title = "Toggle Dark Mode OFF"            }
         })
         return
     }
@@ -66,7 +69,7 @@ document.addEventListener('click', (event) => {
             }
         } else {
             // Append key to input sequence
-            inputSequence += key === 'dot' ? '.' : key;
+            inputSequence += (key === 'dot') ? '.' : key;
             updateScreen(inputSequence);
         }
     }
