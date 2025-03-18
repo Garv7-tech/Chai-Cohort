@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Button & Background Color Generator</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=bicpTjTsqeui&format=png&color=000000" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Welcome to Dynamic Button & Background Color Generator</h1>
+    </nav>
+
+    <main>
+        <div class="dropdown">
+            <label for="colorDropDownList">Choose Color</label>
+            <select name="colorDropDownList" id="colorDropDownList">
+                <option value="">Choose Color</option>
+                <option value="Red" data-key="Red">Red</option>
+                <option value="Blue" data-key="Blue">Blue</option>
+                <option value="Green" data-key="Green">Green</option>
+                <option value="Pink" data-key="Pink">Pink</option>
+                <option value="myColor">
+                    Enter your color
+                </option>
+            </select>
+            <button id="createBTN" type="button">Create BTN</button>
+        </div>
+        <div class="display">
+
+        </div>
+    </main>
+    <script src='script.js'>
+    </script>
+</body>
+
+</html>
