@@ -10,6 +10,7 @@ The repository is organized as follows:
 ```
 MasterJi Projects/
 ├── JS Assignment/
+│   └── Assignment 2/  # Project 1: Daily Mood Tracker
 │   └── Assignment 2/  # Project 2: Youtube Video Listing
 │   └── Assignment 3/  # Project 3: Quote of the Day
 └── README.md
@@ -19,6 +20,12 @@ MasterJi Projects/
 Here’s a list of all the available projects under **MasterJi Projects**:
 
 ### 🔥 JavaScript Assignments
+
+1. **Assignment 1: YouTube Video Listing App**  
+   - Description: A web application to track daily moods with options for Day, Week, Month, and Calendar views.
+   - [Source Code](https://github.com/Garv7-tech/Chai-Cohort/tree/main/MasterJi%20Projects/JS%20Assignment/Assignment%201)  
+   - [Live Demo](https://masterji-daily-mood-tracker.vercel.app/)  
+   - [Detailed README](https://github.com/Garv7-tech/Chai-Cohort/blob/main/MasterJi%20Projects/JS%20Assignment/Assignment%201/README.md)
 
 2. **Assignment 2: YouTube Video Listing App**  
    - Description: A responsive web application to list and filter YouTube videos using the YouTube API.  
