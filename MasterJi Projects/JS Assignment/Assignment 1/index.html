@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=MDOJH2L2uik0&format=png&color=000000" type="image/x-icon">
+</head>
+<body>
+    <h1>Mood Tracker</h1>
+    <div class="container">
+        <div class="moods-container">
+            <h2>Select Your Today's Mood</h2>
+            <div class="moods">
+                <button id="happyBtn">😀 Happy</button>
+                <button id="sadBtn">😟 Sad</button>
+                <button id="neutralBtn">😐 Neutral</button>
+                <button id="excitedBtn">🤩 Excited</button>
+            </div>
+            <div class="moods-display">
+                <div class="view-buttons">
+                    <button id="dayViewBtn">Day View</button>
+                    <button id="weekViewBtn">Week View</button>
+                    <button id="monthViewBtn">Month View</button>
+                    <button id="calendarViewBtn">Calendar View</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="calendar-container" id="calendarContainer"></div>
+    <div class="mood-log" id="moodLogContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
