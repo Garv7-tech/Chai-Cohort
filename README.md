@@ -39,6 +39,12 @@ Here’s a list of all the available projects under **MasterJi Projects**:
    - [Live Demo](https://quote-display-masterji-assignment.vercel.app/)  
    - [Detailed README](https://github.com/Garv7-tech/Chai-Cohort/tree/main/MasterJi%20Projects/JS%20Assignment/Assignment%203)  
 
+
+5. **Assignment 5: Markdown Previewer**
+   - Description : A simple Markdown Previewer with live rendering, dark mode, copy and clear buttons, fixed layout, and smooth scrolling for input and preview.
+   - [Source Code](https://github.com/Garv7-tech/Chai-Cohort/tree/main/MasterJi%20Projects/JS%20Assignment/Assignment%205)
+   - [Live Demo](https://masterji-markdown-previewer.vercel.app/)  
+   - [Detailed README](https://github.com/Garv7-tech/Chai-Cohort/blob/main/MasterJi%20Projects/JS%20Assignment/Assignment%205/README.md)  
 ---
 
 ## ✨ How to Contribute
