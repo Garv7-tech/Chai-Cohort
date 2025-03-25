@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=55494&format=png&color=000000"
+        type="image/x-icon">
+</head>
+
+<body>
+    <h1>Markdown Previewer</h1>
+
+    <!-- Buttons container -->
+    <div class="buttons-container">
+        <button id="copyBtn" onclick="copyInput()">Copy Markdown</button>
+        <button id="clearBtn" onclick="clearInput()">Clear</button>
+        <div id="tooltip" class="copy-tooltip">Copied!</div>
+    </div>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Left: Input area -->
+        <div class="left-container">
+            <textarea id="input" placeholder="Type your text here" oninput="takeInput()" onkeydown="insertTabSpaces(event)">
+                
+            </textarea>
+        </div>
+
+        <!-- Right: Preview area -->
+        <div class="right-container">
+            <div id="preview"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
