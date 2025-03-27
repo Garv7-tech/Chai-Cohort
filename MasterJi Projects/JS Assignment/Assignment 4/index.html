@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Library</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=113802&format=png&color=000000">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=43593&format=png&color=000000" type="image/x-icon">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <span class="material-symbols-outlined logo-icon">menu_book</span>
+                    <h1 class="app-title">Digital Library</h1>
+                </div>
+                
+                <div class="search-container">
+                    <div class="search-bar">
+                        <span class="material-symbols-outlined search-icon">search</span>
+                        <input type="text" id="searchInput" placeholder="Search by title, author...">
+                        <button class="clear-search" id="clearSearch">
+                            <span class="material-symbols-outlined">close</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="controls-container">
+                    <div class="view-toggle">
+                        <button class="view-btn active" id="gridViewBtn" title="Grid View">
+                            <span class="material-symbols-outlined">grid_view</span>
+                        </button>
+                        <button class="view-btn" id="listViewBtn" title="List View">
+                            <span class="material-symbols-outlined">view_list</span>
+                        </button>
+                    </div>
+                    
+                    <div class="sort-dropdown">
+                        <label for="sortSelect" class="sr-only">Sort books</label>
+                        <select id="sortSelect">
+                            <option value="" disabled selected>Sort by</option>
+                            <option value="title-asc">Title (A-Z)</option>
+                            <option value="title-desc">Title (Z-A)</option>
+                            <option value="date-desc">Newest First</option>
+                            <option value="date-asc">Oldest First</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Filters/Sidebar (Mobile) -->
+            <div class="mobile-filters" id="mobileFilters">
+                <button class="filter-btn">
+                    <span class="material-symbols-outlined">tune</span>
+                    Filters
+                </button>
+            </div>
+            
+            <!-- Loading Indicator -->
+            <div class="loading-container" id="loadingIndicator">
+                <div class="loading-spinner"></div>
+                <p>Loading your books...</p>
+            </div>
+            
+            <!-- Books Container -->
+            <div class="books-container grid-view" id="booksContainer">
+                <!-- Books will be inserted here by JavaScript -->
+            </div>
+            
+            <!-- No Results Message -->
+            <div class="no-results" id="noResultsMessage">
+                <span class="material-symbols-outlined">search_off</span>
+                <h3>No books found</h3>
+                <p>Try adjusting your search or filters</p>
+            </div>
+        </main>
+
+        <!-- Pagination -->
+        <div class="pagination-container" id="paginationContainer">
+            <button class="pagination-btn" id="firstPageBtn" disabled>
+                <span class="material-symbols-outlined">first_page</span>
+            </button>
+            <button class="pagination-btn" id="prevPageBtn" disabled>
+                <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            
+            <div class="page-indicator">
+                <span id="currentPage">1</span>
+                <span>of</span>
+                <span id="totalPages">1</span>
+            </div>
+            
+            <button class="pagination-btn" id="nextPageBtn" disabled>
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+            <button class="pagination-btn" id="lastPageBtn" disabled>
+                <span class="material-symbols-outlined">last_page</span>
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>© 2025 Digital Library. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
