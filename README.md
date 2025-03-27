@@ -40,6 +40,12 @@ Here’s a list of all the available projects under **MasterJi Projects**:
    - [Detailed README](https://github.com/Garv7-tech/Chai-Cohort/tree/main/MasterJi%20Projects/JS%20Assignment/Assignment%203)  
 
 
+4. **Assignment 4: Books Library**
+   - Description : A responsive web app that fetches and displays books from an API with search, sorting, and pagination features.
+   - [Source Code](https://github.com/Garv7-tech/Chai-Cohort/tree/main/MasterJi%20Projects/JS%20Assignment/Assignment%204)
+   - [Live Demo](https://masterjis-books-library.vercel.app/)  
+   - [Detailed README](https://github.com/Garv7-tech/Chai-Cohort/blob/main/MasterJi%20Projects/JS%20Assignment/Assignment%204/README.md)  
+
 5. **Assignment 5: Markdown Previewer**
    - Description : A simple Markdown Previewer with live rendering, dark mode, copy and clear buttons, fixed layout, and smooth scrolling for input and preview.
    - [Source Code](https://github.com/Garv7-tech/Chai-Cohort/tree/main/MasterJi%20Projects/JS%20Assignment/Assignment%205)
