@@ -83,6 +83,7 @@ function generateCalendar() {
 
     calendarHTML += `</div>`;
     calendarContainer.innerHTML = calendarHTML;
+    calendarContainer.setAttribute('style', 'display: block')
 }
 
 // Event listeners
