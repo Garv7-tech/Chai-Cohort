@@ -1,7 +1,8 @@
 # 📚 Books Library - README
 
-![Books Library Banner](<https://media-hosting.imagekit.io/b668ab1edac94137/Screenshot%202025-03-27%20230903.png?Expires=1837705166&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=J-a03-gu5emNdVMATVoClmEAZ7vhGSLU8~LHebShXRA6S4VxKSNiYVTZzVI1XxLz2CBncUpOxzdyCL-jX0gni-kFxlFJ0VnLXjL7tfoMwszIrDPvGc2XJvvOCGAtjkVpoKpArzd9z4Kq7JguGNprjPZIRcm2CX6v86a-xjPqcDJg3LQAniY9~YUFBbnUW8g~oCMKcwLEJ7RhpeH6T7loH5nXQCpprgHZxQd1uz5A6oVGiRNzHhaPrAWsnc0n5dNSZY~5fyhcoT8D~m77i20ai7yMqQfbbw2lY31zDMyTZDzMSg1srdsfrb24MEx2TlWFmkmPXUOi-fCRcfIiy0OarQ__>)
+![Books Library Banner](<https://media-hosting.imagekit.io/e417e1d4fb3549d1/Screenshot%202025-04-13%20074919.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dj-uRttI0I0fdtv4nynk5xXycwJdEdK6UzyN5jnHSPV6k1q3liEYz8ubfnSOF0FUjnR6B~Aodg8mEjjOKIot0mcwOHJejjg-kBka1eR~w5oixD2CmsczC2KnNXpYRFXUEDn1OHNLc9Zg9GJV7ivDnZUtJqrLLi7p6BlJCpCZZsfqvKRz19emfjGsismdCWsbYYUwbm85DSW8Nr7RJx9k7jzcZJF4EKex~wK0DVLefEKO8mD78kPrDEdnfvX3y1OOIK7F6do5UVTOPEBeVqz-61~5zAtAqk3pfkDPVgE-P3ylUsjVTse8uQoj2bN4e2lrWvgGm~Hm7bNM2T~YVzjkaw__>)
 A modern, responsive web application for browsing and discovering books using the FreeAPI.app books API. Features a clean UI with grid and list views, search functionality, sorting options, and pagination.
+
 
 ## 🌟 Features
 
@@ -13,25 +14,56 @@ A modern, responsive web application for browsing and discovering books using th
 - **Book Details**: Click any book to view more details in a new tab
 - **Modern UI**: Clean, intuitive interface with smooth animations
 
+
 ## 🖼️ Screenshots
 
 ### Desktop View
-![Desktop Grid View](<https://media-hosting.imagekit.io/b668ab1edac94137/Screenshot%202025-03-27%20230903.png?Expires=1837705166&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=J-a03-gu5emNdVMATVoClmEAZ7vhGSLU8~LHebShXRA6S4VxKSNiYVTZzVI1XxLz2CBncUpOxzdyCL-jX0gni-kFxlFJ0VnLXjL7tfoMwszIrDPvGc2XJvvOCGAtjkVpoKpArzd9z4Kq7JguGNprjPZIRcm2CX6v86a-xjPqcDJg3LQAniY9~YUFBbnUW8g~oCMKcwLEJ7RhpeH6T7loH5nXQCpprgHZxQd1uz5A6oVGiRNzHhaPrAWsnc0n5dNSZY~5fyhcoT8D~m77i20ai7yMqQfbbw2lY31zDMyTZDzMSg1srdsfrb24MEx2TlWFmkmPXUOi-fCRcfIiy0OarQ__>)
+
+![Desktop Grid View](<https://media-hosting.imagekit.io/e417e1d4fb3549d1/Screenshot%202025-04-13%20074919.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dj-uRttI0I0fdtv4nynk5xXycwJdEdK6UzyN5jnHSPV6k1q3liEYz8ubfnSOF0FUjnR6B~Aodg8mEjjOKIot0mcwOHJejjg-kBka1eR~w5oixD2CmsczC2KnNXpYRFXUEDn1OHNLc9Zg9GJV7ivDnZUtJqrLLi7p6BlJCpCZZsfqvKRz19emfjGsismdCWsbYYUwbm85DSW8Nr7RJx9k7jzcZJF4EKex~wK0DVLefEKO8mD78kPrDEdnfvX3y1OOIK7F6do5UVTOPEBeVqz-61~5zAtAqk3pfkDPVgE-P3ylUsjVTse8uQoj2bN4e2lrWvgGm~Hm7bNM2T~YVzjkaw__>)
 *Grid view on desktop*
 
-![Desktop List View]![Screenshot 2025-03-27 231106.png](<https://media-hosting.imagekit.io/13d772c40bea4b99/Screenshot%202025-03-27%20231106.png?Expires=1837705279&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=A5kzVY4n8yBwRBNx1wv2Rehtz3ot0bUZuHCKOrgCiqCLV-dsKbwWiempnwuaU7vNElpCPtkHUstzsOjnSSVaXjRvCsveCTWJpTwyqH7~bmy2jGB1pQ4ceq78pTfW2eUooaC59llwGG~uJD~qYJSnzwjBZZ9NNS0l0SLkpM4YzqDza~rEe6qR6RSLGVaOvy8IStoMxOQ5J5wlkwgcTxMO6WtN1yJ4VoeU9Uzc-KFfIxsFdPBJ4O~bz26CjOXfg~x42vJNZLo2-Y5lWhL25uVAbDUCj5m9qMLMZ852piWsd4hxIMiuhz4CCsZ6xXZjZDQvaE3bmvhIVeRn0zylsiRR2A__>)
+
+![Desktop List View](<https://media-hosting.imagekit.io/200a635a03de4384/Screenshot%202025-04-13%20074949.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=bQRfmsOzidW~-mMFD~wsuyGhEgsdiVzHxYQfD-z77Wpfok5qivJjg4pSvRuoWVFrYEU2L1bpVY96qwv-3OARfyeMORFy0odj3XQdRtjNMoBnKALW55nFVKUa2QlyKtzT61WJGsl9DenNXwH~1KJYicrR6H1o6rl9eXmWD5dGPE7oqvAIhBxhAZ-F4B09d6u3wnbUmBQbULa1qn436N4ZABD2pnRQZh5X1TAVWdYg1COxLgwKmiqfWnsYJhhG7ALl8ChoJQye7C8sm~4BY-zEVMP4WgOS-eQ2wwrRQMyRX-ARg9hHCEpp2GsWcCysGP8hK6Ye2AwUXrzH~d4XmUZl3w__>)
+*List view on desktop*
 
 ### Mobile View
-![Mobile Grid View](<https://media-hosting.imagekit.io/b8589207d8cf4a26/Screenshot%202025-03-27%20232731.png?Expires=1837706287&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Y0bL7Q6dBfidEVzOcaNl8Wi6IOtsSOOA1WWWymFdXEsQvoUc8zLSUcrvucvzvcxTRriBSuWwXaNrlSAEXra9yF6f32dLfzB35We0zgDVQ~PRReJUtQ1yU9OUbbVWNnI9Amf03z41ouY1ctl~wof-cPFAzWQ~x-uG143FMGYzA3EhRWbwsGEET0E3KL0YG1aO0Riq3NTzS~AvkYI-hL3QUiqZTkofwmjCr-vbpLcpivjtO18IUbJUT5P6txAqixkypp7Aadey7KVvPbQOeEnTjepHL9gfRoroyey8Ppcoi6h2PFIFOuK5GsebNkGjkxVduyct2kU-Ma~Ho8BdXsKnfQ__>)
+
+![Mobile Grid View](<https://media-hosting.imagekit.io/6652b534e0624321/Screenshot%202025-04-13%20075153.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=qkF3RIjHCVSXTAjR2SevgtyXNIODO5g5XQOMd6vk6gKbf3H9Agda8LX466-rB22dLQ0vTnOpI6gh76lcV10Pn4IwtrakamozIOVbm1vQlEwH2ZXMvfK~WqdWiYWvHa4-6jZSfTUmC9OwZZYjoGVUWPq~wJ2DpVqrUBYna7X9VkfttustTrQraADZEzeSw1p02curj-XqKqEeUH8wWVYjDhueuRy4-WYr6gAbNCcaI7zsGC3kL6gMMNsfvSZcEwgMe46dGp5BwMQVGpEv9hETo3Vdab0jyHkuKO52t6U9BXG8E0Ys3ngr65-5xRN4EqPFjmvIvEO8iDNF24Mks7UGUQ__>)
+
 *Grid view on mobile*
 
-![Mobile List View](<https://media-hosting.imagekit.io/e4bdc091985e4217/Screenshot%202025-03-27%20232757.png?Expires=1837706287&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=VP8ZXt1MCgVPYGLXRcv-645buvO1h3vzaU9AChQTpb6dLEl~dJPNUOB9nIbV~Ux0dsmYSYqg9EmxTZ6vm0Y1pvORanUpACsoiKSH~wC2YofrAn8GoSxAwu0Rl0tVURmPXkmwE3wkXJyNaIcKSoL5ELWf0L7oTEGEIUayUW1cvPJlob3BbLQxQV5E23E1pTRYPQttfQQHraqW6~keAZPBCPPeOYEI5WSBEbF49GvNj~inX5lO~ovT~wS7uPXqrFvlEv66UWLxoOHncdplirxhwO4Xk1PqTUKmv-1mfOQIeeckEEqY5N-Gow0RAFWRRmHh6YcT5LE~5J1ZQvnx6VLjlQ__>)
 
-### Interactive Elements
-![Search Functionality](<https://media-hosting.imagekit.io/e0ded3bd69c14f56/Screenshot%202025-03-27%20232951.png?Expires=1837706407&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=eBagmRyyG-G06DNxcYn7FcNhGAeArNdvTdn7B6XgA7lglg7pLCaNhFnN665TkBalQuqVQd5VH9xQhjQW~U1Kf2-IIA5QWRPIJbq5NeqQgL4s4jyVo5E3ldA380UgjMl-dGUk1A~~s4FcRIWxErNXsop~7gWEPyAUPOmAtO-KA2Sz4lJMWEhTthImz-39hL6d5IDan3louRteE2dLGTWULSBHo3mlNroLxYOOcrwo09D3fogAzWmUl~ZWPwGrqPI8PZ0Bnj7SWGS-WdNT2w5Wo6415RaV3jk8Y1PnwEw7w6fl9nZpkzjuzKKALncePpwelFf9mGRVhgs0bF~cuyoa4Q__>)
 
-![Sorting By Title](<https://media-hosting.imagekit.io/1a269a2632d1417e/Screenshot%202025-03-27%20233040.png?Expires=1837706464&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AQ7SbiIE~3nK0t8AK-FQcnQ46PyQtjv4JMuFbv~hmrDqfMrJL2fDwgYkQ-ZjKy7EEDAc8FJZJ7eAkatdmccprniXxfxWUlV6uyEBMCfc6fnTVjx2Xzd9e58TJhjjlOo6M4baKmfzy1RKOyteoW07BBJg6TxrvNB3YGO5ikE5RX9IEzTluH5vvr7h5vsBKyzhV7khz4qJGGW0afMDhzgQe2zKGbz2QMpTkbotWxgXRJno-7c6V0GxfJ3oAVXl-skXQapcunpmzl0WxZoOpF7qYllKBYfFYhNccmaNphKSkIzsHJlsQpzuhwSxtVWipRD4T4NfMSqokZlIwRsXe-NMbg__>)
-![Sorting By Released Date](<https://media-hosting.imagekit.io/e22c2b17dcfd4420/Screenshot%202025-03-27%20233051.png?Expires=1837706464&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ocsMlt0eSV~S1yjGVxJAGEwuIs0TByMz5cc5CTjjfvH4cNHrBI8HEWym4NGXvqTIosEtYPMbhg3lZzpZqP-~ZrN~ofHA9AR1GRh6h5y~4an2dMEoVfB6V2bXwCYzOXceVd~8Fb9LaHylM1jI99627oKPSpp02ehWXiGeoi7NyLriC-JIhS--qPERBn1s7bjrC5sZZxCd~Lc~k7Pfl9YNBiAg39yS30UsIkvcFOnXg4OoMPm4t7BmCZ3Tqsy2gqjJqJ8QZoYZYEs6FtO695tHsCnrKX~vIrKJr-bDOGHi0LS2zKw~qwJ5rHxPZXdtoVqpyz2lJFRl7PNKsJ3NHBZ6kw__>)
+![Mobile List View](<https://media-hosting.imagekit.io/a8f0f6bf13bb4a45/Screenshot%202025-04-13%20075124.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=shXDG7cEZjxy~v75QeqwaDGxPi-BrDIijYI9cAIF5ofAPHIacbkPsmtat2uvtClkc9L1jT-buBaAUg0Qeo8IfA01f30Tgj9smbD3jXHWGEMAnWxWjYvpD85aciDHMm2N5bJCQDixNzfDwUsUgWVT1ntVU0CJ6oB8fjPtS3Ml2CU5bvdXPM-HE8bOY8Wph3LTmrV4SWI12dWihg2NrTe8ZkmRNYQ6YYuugsjwpEL2Q-Ht801HHKzZWdL2KvNZHYiutggCaf9VJ86n-H9xM5mxGcn3I4tZltMU~5PRRDBOY9QCyDMww4OoXprombZ3QknvjJb6koS3aaMgwXn2M4s8qg__>)
+
+*List view on mobile*
+
+
+
+## Interactive Elements
+
+### 🔍Search Functionality
+![Search Functionality](<https://media-hosting.imagekit.io/49b1514a2bc74c42/Screenshot%202025-04-13%20075223.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=y3BTtzmcaDn~yavgbARStWr1OzGamDMPQNx5swy-MT1xZhjY3Vf1jXWI4A1kSkPzRipQ8aKaDZunEZ~JkmW2z9i36eZhbXTOjw20W7VFs1oX3AoVQq4Vnf0BUAcr6GAvjHUz~r8GaGpNGuHmgYVi5ImaHlEZyxgBLv8hZYOox2ARI7xLJjMvTDqcQfl2Y0wrI74TBuOjxgwOoH1rdJSpSLH~fArKs~yVHfsZ9ZcP4Ec96aRMUpkYSdDs4aOzbsHN5sAG8Ah~VEwz9LU~N8lhUt4~3nkWD9oAQNdR0fqS~GGPeqTwN3bjTZYmMbSY9OEn58Oq5kBOOHedaUmBOQ83WA__>)
+
+
+### 📚 Sorting By Title (A-Z)
+
+![Sorting By Title (A-Z)](<https://media-hosting.imagekit.io/efbd5751dae14049/Screenshot%202025-04-13%20075432.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=pKyBP-48DfouCQ2asES6bYeL3YPp7HlbITyd~z07iKKYXhyM1Phz9SiCSMKX2YxDXUK8tUL0ghD58Y4~vK2Iy2cD82aYPzt3jCJaOo814Tuu9TZUD04pBWEs5v2RzPDw4bcCReDLFXNzSBtGFjwa1-xRbxZ9l~tddCT3zgO9VzZ~Q9ZX7rBDAX7WaEQZ8yfTfU98QYU2EnPktdMryxHQthbiWXnCWbvaJ8kUo~pfRovKHswJlyzGbpUZkMDcWiCwPXrCI~bpL4VJ~1vMP3HjrUBcgjelRntCuXx~7hSyrVl60dgNOmi-dyWLi2moF11FdIYmCZxiea3BYwvPqwtbpw__>)
+
+### 📚 Sorting By Title (Z-A)
+
+![Sorting By Title (Z-A)](<https://media-hosting.imagekit.io/ed435ecc2c614926/Screenshot%202025-04-13%20075446.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Wdq5xnYVuLL~Np06PzzH8fT5dQb82F2k9MB0MAkLH8hk7Nn1Pz1SjSpRuN09WTDqNuwAyR9xRGc082dM~Jrw1tZ~jlFPRLhxcsXJUmOMVUDVXd~ut6qtVWqMTkfH6sTP6sKpaDSwUhkikIBVth6cjj~0U64SctHEQ4PpCu7qJfTpKtfJqnhm5rA-eDj2uxCVlTLIiJW4kWR4ghZ3sNfxyW-MXPyYB~XdqEwvu0l~n3si3fIOXq59tGZKChJfi8VhDEbZuc6uVwN-CGrPPVwOWWxeKbPYfRw4BVL0KJq4OBRHBGKXEDaBGzLLxFZipf4LJZzxYfqkGVrbtvwpkNDe6A__>)
+
+
+### 📅 Sorting By Released Date (Newest First)
+
+![Sorting By Released Date (Newest First)](<https://media-hosting.imagekit.io/1244e002b06f4e79/Screenshot%202025-04-13%20075407.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=0AhZdDdY4LlbD1yjcf7WSMvQ6gIwFJPB9woOQBudVAt7ps2Q7r7Qmu-sI9PhyJ0Ltz61Kryfp7vKtAUu-6VG82oyKR3nY--2D~obVDWgxUqrYIuvdqQdyvxmeYJMCNP75tsTKwEAKqcYw8IQ7Tw2HIZwVc3CCcXy9WAqj6g0zMO2PT3lmDfGxx5hcjCFTKAxqo-9Z9RwU35DrRt2fPibH8qjqhU2vLjp75BOuxHxcR40VcwEeJqHcm0ygQC2frnHbxMHDAKYUpzZFdWOp7dW3voiHAq1kvyypl6AzJLTZC2wx5gZCeB11d2fyCNLsWZvrqevrockJLSGLYAaUAqtKg__>)
+
+
+### 📅 Sorting By Released Date (Oldest First)
+
+![Sorting By Released Date (Oldest First)](<https://media-hosting.imagekit.io/0006dbabf6144acb/Screenshot%202025-04-13%20075420.png?Expires=1839119471&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=HBlewkj3MMSYYNR1BnFvF1VTasmMWeu6fPf7GWp7BmTDCCSODNpi2JB902Euflb1jqWk3lrJ6HAgHH3YC6We~ZPlLrv6n1QVjv8~BO7zT2E6o7D8rsBs4LWPu-dWUgMGXhhJOlJ5XIWW6B-zh~ZW3-kf8NBgrNHCA9hHHawEU9mmjOVT4~vJNtxFCQmTXQRQ5WA1h2Msu4UTijaJ6sZhGtWDEZolDrsr4xcv1-DuQMtl6iZ0gxhAaafkHPHJXjB~tJiQaZb-IUGxe0~OesLguzz7itwIOal62tT1n7niibGu5mMb9wtVm5DzO4F2FlzOKHJC3oegyRsctHAosI4avQ__>)
+
 
 ## 🚀 Deployment
 

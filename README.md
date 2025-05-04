@@ -21,7 +21,7 @@ Here’s a list of all the available projects under **MasterJi Projects**:
 
 ### 🔥 JavaScript Assignments
 
-1. **Assignment 1: YouTube Video Listing App**  
+1. **Assignment 1: Mood Tracker App**  
    - Description: A web application to track daily moods with options for Day, Week, Month, and Calendar views.
    - [Source Code](https://github.com/Garv7-tech/Chai-Cohort/tree/main/MasterJi%20Projects/JS%20Assignment/Assignment%201)  
    - [Live Demo](https://masterji-daily-mood-tracker.vercel.app/)  

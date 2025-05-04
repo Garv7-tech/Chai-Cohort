@@ -31,26 +31,23 @@ A simple and interactive **Mood Tracker** web application that allows users to l
 
 ### **Day View**
 Displays the mood logged for the current day.
-![Screenshot 2025-03-20 185733.png](<https://media-hosting.imagekit.io//40ef71459e034cf8/Screenshot%202025-03-20%20185733.png?Expires=1837085359&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=LhbWBNyCp~LLwUs-41ARTcj2IOOw1cc1Vmz8VImc23x0tIkUJSvptGnWPnnFKCliPzkaoor4Le77-8izPCC-ApJCqfoN8EUe8uHz8FbQx5cmEngGxLvRB876wr00UjYEAXJnxQluKRfVtIQb-YQgStYUCZhYngaMgqoRei100B2BcAa0dbbCKnYCnZJOjq6fhakJxQABCfhpT7CBkB~vX4A8lHFfAudtZeyHkUOLv~cxTDvxs5QidLA~P2uSuc3HRgiS8Dqdp3krtn9JWraxpzDwk3ORMVmRA4yBHUHc9MRFAXeFsFRdSiLmRG118cHxeL4eGOueERaLIkS~88qpYA__>)
-
+![Screenshot 2025-04-13 072420.png](<https://media-hosting.imagekit.io/8879a514eaea4e80/Screenshot%202025-04-13%20072420.png?Expires=1839117376&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=QzMpqnkDOLbZIr1NlL13Hqn3MsmjPeC15tVbY3BYvCihOdGk~jq1aIdxTXMnB1ducNpJwO3uBz8LyAoxblJewyvw-jEKaAuCVR6fYFG6R1TrDbBG1nDhV8bQaXbdHapE2jWJoedG-wUjffEJf29B1tNkACH3NSf~nVnFleUbeQ31SvuaUOTSFttXO7XgluZHyBgXcyXd4NOSo5bpg9~i58Q9vdTTP0bTZpui~gAtDg3PonDBXiBEMgKRkBv3kDqe-g~1UM1wwvAbrUZwFZt1JF0pO9c1TcyWURwV4gszvA~jFrn1y1uZoiVYi7T-m~LA-0hiwsaExIRMVkU81dAkag__>)
 ---
 
 ### **Week View**
 Shows mood entries for the last 7 days.
-![Screenshot 2025-03-20 185750.png](<https://media-hosting.imagekit.io//f51bbe689a364204/Screenshot%202025-03-20%20185750.png?Expires=1837085359&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ZtbP3UbQAxgUzAvHhz~bvCCj9NF9Afzjqi3PtcTaci4usSwTjRPjvUTjd4~t3vA4hRtqs~BDUrZBRB3XE7TcsUsNzMgcJubbndsgTcFo6Rg71NwQZ0GuRRXM1ahgtWMEBEILQpgdIsoczGbFswP~9kI9O5JIspB9phFJcvPhzsbH6q~~l-dtfkmm~nbHQbNqK6vfAQpwxscO7M9xoCkhLScOdpLaJLzXHklw8~9CHFJXhujjlXoa8VHIDAE-bvRpjkc3spmGzIzn1bTUfqUEJGA9Gc-0x873E8JWHxVBF2XSsRecNP5x012LmkRz2L2fN9VIgoSqemCuqpnjy1E2bg__>)
-
+![Screenshot 2025-04-13 072434.png](<https://media-hosting.imagekit.io/913afb54871940fb/Screenshot%202025-04-13%20072434.png?Expires=1839117376&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=19wMqaykRS5CUoMzU6qby0JQ7IJ309n65VXNxbBwpWCNEiIL5wSpWMo1NkQZoFhKIrdGi3myD1x4~wpBPLxhHBVRix0lP7UpIqDd1bppVXpdQt~2hE1VdBJVPLCicgUIyzeX9uErbhMDb4FmiwwlpCI0DPkI4T4WIReRc6WerNHun5UqaclY9SeDUyst2VVjowYtBQNZSlMTozPsEZdCs016xejDmIgaYiwPOmT-2becptKSGhO6smmcrPOm0ITWoq5sqWbr52-RsLGje7oBmETY17Xq1Yyefeyi6e9jY4~Sd2L0tyZ9s7R8--jtyEVDTW2iFi0K~9laKcGRX4Y0Aw__>)
 ---
 
 ### **Month View**
 Lists all mood entries for the past 30 days.
-![Screenshot 2025-03-20 185800.png](<https://media-hosting.imagekit.io//03a7165e04d14e21/Screenshot%202025-03-20%20185800.png?Expires=1837085359&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Tp5nu19zPxyBWQ-E0v02mv95~mfSiuFnGF64ekMmeHit6wkQOxSDZOq5kosVjMfYZGV-8sLtA8AHBSkK4ffYZbZhMfOKnAm~S8DkhovEWUXWh05Lo6w9BI3cL-FuIZgfOKet4uqEIBPEJvtrYg~7HeU12NVnj7J2f6strVdQCor9~HoCW0~9rFCz38T6IJtuxGDaFWZ27Zg10Eg9lIH5WofoGwv~NJZQ1l3QOmLM2JW5tsuyCgYXH4GeLkkTCRsowoT5yywA6jFFS4dhug-4KUSgERw22B7~~r3fBf5Y77Lw4NKzyL40IShAbNTp3jOwKhOIRJ8ag0i2k7z4TxJkWg__>)
+![Screenshot 2025-04-13 072446.png](<https://media-hosting.imagekit.io/ad6b8f3e8d3f49eb/Screenshot%202025-04-13%20072446.png?Expires=1839117376&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=IlcE5dfb4~2wJAbteqnATqarxftbiIk1NWFy4V59zQ--Rjt7l3VFly0sb4VvKfE3Gm8LdEQK4vbakyetyvbejrgKkIDcrKgR4fgGWi8~jZcX3ccyvQORmn6WFiez8SNPazso5FoeoQkfAypkiWgOrWflIK13oiyielvlr59IYoFFUeoN2l4O3EF0Ztuji-mAFEEnt1rpoNVwwGv8b8e2kdyMxyB3ew-4hzED-LzF4dqhmdLOHxNiW8A6wh2Oj5LSd6jgNKMxQDJH~-Rr3tP2FN7~5mFKcwd5~8bQKynHrG~adMfVZYamSCal2ofdttFGAUAdgmGJx3DsUDP9wYVP-A__>)
 
 ---
 
 ### **Calendar View**
 Visualizes moods in a monthly calendar format.
-![Screenshot 2025-03-20 185813.png](<https://media-hosting.imagekit.io//143d0edf506c474e/Screenshot%202025-03-20%20185813.png?Expires=1837085359&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=1gQFMeOt70AFhrbO7xPDLX9U~CsVRbuNP2tlasIBYnrmS6EfYFeUGFBm7N-MMg4L~Ns4QSUyadwrwUNRffy55Y~AAL2tvp-acON0mPvRb8JO~6yspggHntAuhuuVqEqqNV5LPPAQukmfqVRdcriMKsPQ4QbE1Ody0Pgq5ZHT6RCPcnewXdFOnehzW9ZemNasqALz2HxQHRKTLAgzOi7DvQTkGGM7eP-hRy21hA~ZcgZ9OpYp2aqSalobsGwdaVD-QKTLQY-C18qemCWkXvQ7I7PSqh23HdGzjb54SyFphXjHWbuylFuOI-y6dKAtXbxpMxShp2jwlk2xI1~1TUL6XQ__>)
-
+![Screenshot 2025-04-13 072844.png](<https://media-hosting.imagekit.io/4eaae42687914c64/Screenshot%202025-04-13%20072844.png?Expires=1839117554&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zNGrdGEPP9Zx2mNTFAm2Eq5XpnVkXsfISEVzK6zcTei9RjrcqZeqpYGQwgWNiZ2EZHEfXIg2-SJ9vUq3AaX1vKph96Wok5tdbJfPaCm87z2fSKzkVk34ADAJRD44di~GlMd9vqDACoeHKE2iyThtkSNzfubL7Hg3tSqoyVBzHqz9uLm57CM9tFkzK00frrvI48B5G~0qPQ2zdd5~F4onbNrAq8Z2s6kZn2zO3e-t646uI1ysKaNtj8llEdpDRwtQV44Y0RHGF5H8QbI6xg1FDtMInTbd9jejO8WXtjgGYqVSQwhKYCl3l0ZBCmiWqCUaLxVMhPTOQlry~zM~s~-bSA__>)
 ---
 
 ## 🛠️ **Installation**
