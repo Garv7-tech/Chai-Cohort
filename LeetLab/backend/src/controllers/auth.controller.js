@@ -17,12 +17,15 @@ export const register = async (req, res) => {
             }
         })
 
+        console.log('searched db for existing user');
+        
         if (existingUser) {
             throw new ApiError(400, "User already exists")
         }
         // hash the password
-
         const hashedPassword = await bcrypt.hash(password, 10)
+        console.log('hashed the password');
+        
         // create a user
         const newUser = await db.user.create({
             data: {
@@ -32,10 +35,15 @@ export const register = async (req, res) => {
                 role: UserRole.USER
             }
         })
+
+        console.log('created newUser');
+        
         // create token
         const token = jwt.sign({ id: newUser.id }, process.env.JWT_SECRET, {
             expiresIn: "7d"
         })
+        console.log('created jwt token');
+
         // send token via cookie
         res.cookie("jwt", token, {
             httpOnly: true,
@@ -43,8 +51,11 @@ export const register = async (req, res) => {
             secure: process.env.NODE_ENV !== "development",
             maxAge: 1000 * 60 * 60 * 24 * 7 //7 days
         })
+
+        console.log('sent jwt token');
+        
         // send response
-        res.status(201).json(
+        return res.status(201).json(
             new ApiResponse(
                 200,
                 "User created successfully",
@@ -100,7 +111,7 @@ export const login = async (req, res) => {
         })
 
         // send response
-        res.status(200).json(
+        return res.status(200).json(
             new ApiResponse(
                 200,
                 "User Logged In Successfully",
@@ -128,7 +139,7 @@ export const logout = async (req, res) => {
             secure: process.env.NODE_ENV !== "development"
         })
 
-        res.status(200).json(
+        return res.status(200).json(
             new ApiResponse(
                 200,
                 "User logged out successfully",
@@ -142,7 +153,7 @@ export const logout = async (req, res) => {
 
 export const check = async (req,res) => {
     try {
-        res.status(200).json(
+        return res.status(200).json(
             new ApiResponse(
                 200,
                 "User authenticated successfully",
